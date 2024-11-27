@@ -1,0 +1,231 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "TouchSocketPro.Dmtp": "3.0.4"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "System.Memory/4.5.5": {},
+      "System.Threading.Tasks.Extensions/4.5.4": {},
+      "TouchSocket/3.0.4": {
+        "dependencies": {
+          "TouchSocket.Core": "3.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/TouchSocket.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        },
+        "resources": {
+          "lib/net9.0/en-US/TouchSocket.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "TouchSocket.Core/3.0.4": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.3",
+          "System.Memory": "4.5.5",
+          "System.Threading.Tasks.Extensions": "4.5.4"
+        },
+        "runtime": {
+          "lib/net9.0/TouchSocket.Core.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        },
+        "resources": {
+          "lib/net9.0/en-US/TouchSocket.Core.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "TouchSocket.Dmtp/3.0.4": {
+        "dependencies": {
+          "TouchSocket.Http": "3.0.4",
+          "TouchSocket.Rpc": "3.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/TouchSocket.Dmtp.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        },
+        "resources": {
+          "lib/net9.0/en-US/TouchSocket.Dmtp.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "TouchSocket.Http/3.0.4": {
+        "dependencies": {
+          "TouchSocket": "3.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/TouchSocket.Http.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        },
+        "resources": {
+          "lib/net9.0/en-US/TouchSocket.Http.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      },
+      "TouchSocket.NamedPipe/3.0.4": {
+        "dependencies": {
+          "TouchSocket": "3.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/TouchSocket.NamedPipe.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        }
+      },
+      "TouchSocket.Rpc/3.0.4": {
+        "dependencies": {
+          "TouchSocket.Core": "3.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/TouchSocket.Rpc.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        }
+      },
+      "TouchSocketPro/3.0.4": {
+        "dependencies": {
+          "TouchSocket": "3.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/TouchSocketPro.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        }
+      },
+      "TouchSocketPro.Dmtp/3.0.4": {
+        "dependencies": {
+          "TouchSocket.Dmtp": "3.0.4",
+          "TouchSocket.NamedPipe": "3.0.4",
+          "TouchSocketPro": "3.0.4"
+        },
+        "runtime": {
+          "lib/net9.0/TouchSocketPro.Dmtp.dll": {
+            "assemblyVersion": "3.0.4.0",
+            "fileVersion": "3.0.4.0"
+          }
+        },
+        "resources": {
+          "lib/net9.0/en-US/TouchSocketPro.Dmtp.resources.dll": {
+            "locale": "en-US"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
+    },
+    "System.Memory/4.5.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
+      "path": "system.memory/4.5.5",
+      "hashPath": "system.memory.4.5.5.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
+      "path": "system.threading.tasks.extensions/4.5.4",
+      "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "TouchSocket/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gQ2bVXnv6nsEibFV3gVah9wSfqa2RA0h3FZdv/dkY/+x21RHzcDYIc5vmf0tR3Kvy8q2aBOd2xfDRHintZIzsA==",
+      "path": "touchsocket/3.0.4",
+      "hashPath": "touchsocket.3.0.4.nupkg.sha512"
+    },
+    "TouchSocket.Core/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hGa0Xwu8H7L+BkMcO3JUuWZcwtJxXQoEjmTnT+ycPLkhw4T5WOGnAbxn6ga3sUEO+v6WmDg4eqy80rUlOVzHog==",
+      "path": "touchsocket.core/3.0.4",
+      "hashPath": "touchsocket.core.3.0.4.nupkg.sha512"
+    },
+    "TouchSocket.Dmtp/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-b3bsd0soTHo5/h2UWF28jilP6Ik78e97tehMvcXCFWlnmBnMKtultrEF5hNRYdvueBELk22jYimKVnwymq24YQ==",
+      "path": "touchsocket.dmtp/3.0.4",
+      "hashPath": "touchsocket.dmtp.3.0.4.nupkg.sha512"
+    },
+    "TouchSocket.Http/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rvEj4sMmUOna40jbbNOUL9ReZeqlyDwU3Ikm4L0G3bfLZGkBmnrnaT/Mgf+iQlUBhhewN5JZp27HWo9F7Vnbfw==",
+      "path": "touchsocket.http/3.0.4",
+      "hashPath": "touchsocket.http.3.0.4.nupkg.sha512"
+    },
+    "TouchSocket.NamedPipe/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wIMnlOX9x9isOAY23JXg514bqr9zsBb90W9UDOthzE/MlXr58rlQInjVbodbmr1lEMswHblqjSGdsEGYb3hL1Q==",
+      "path": "touchsocket.namedpipe/3.0.4",
+      "hashPath": "touchsocket.namedpipe.3.0.4.nupkg.sha512"
+    },
+    "TouchSocket.Rpc/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+A9eIckoq6S7WQyzvsFcuohT4Ag/pEMS6WJC3ZI0dRb+ZdmAm1nHHtyRCBOAG1w0G1DGhkLpho6HeBIajux6Ow==",
+      "path": "touchsocket.rpc/3.0.4",
+      "hashPath": "touchsocket.rpc.3.0.4.nupkg.sha512"
+    },
+    "TouchSocketPro/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-45uC82GSgQYQKbLUx/y/Fu3bjPivjf+8SY0a0xUM1aYdv+jNB8oE1ZhA6+N94aWMyKVPXkOQsCdyoC0SymzryA==",
+      "path": "touchsocketpro/3.0.4",
+      "hashPath": "touchsocketpro.3.0.4.nupkg.sha512"
+    },
+    "TouchSocketPro.Dmtp/3.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pkybSLfOtVk15UQLJKM4fc32yaVutiUf4xvG1nuUlWZFgbeE4Jw+1oCyS+ohxVWTZehHq+QOxYGHnnC7dP1JvQ==",
+      "path": "touchsocketpro.dmtp/3.0.4",
+      "hashPath": "touchsocketpro.dmtp.3.0.4.nupkg.sha512"
+    }
+  }
+}
